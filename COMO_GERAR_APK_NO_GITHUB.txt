@@ -1,0 +1,42 @@
+COMO USAR NO GITHUB
+
+1. Crie um novo repositório no GitHub.
+   Nome sugerido: despertador-professor-moreira
+
+2. Descompacte este ZIP.
+
+3. Envie TODOS os arquivos e pastas para a raiz do repositório,
+   inclusive a pasta oculta:
+   .github/workflows/build-apk.yml
+
+4. Faça o Commit.
+
+5. Abra a aba "Actions" do repositório.
+
+6. Clique no workflow:
+   "Gerar APK Android"
+
+7. Se ele não iniciar automaticamente, clique em:
+   "Run workflow"
+
+8. Aguarde o workflow concluir com o símbolo verde.
+
+9. Abra a execução concluída.
+
+10. Role até "Artifacts".
+
+11. Baixe:
+    Despertador-Professor-Moreira-APK
+
+12. Dentro do arquivo baixado estará:
+    app-debug.apk
+
+Esse APK pode ser instalado em celulares Android que permitam instalação de
+aplicativos de fontes externas.
+
+IMPORTANTE
+O APK gerado pelo workflow é DEBUG. Ele serve para testes e distribuição direta,
+mas para publicação na Google Play o ideal é gerar uma versão RELEASE assinada.
+
+Se quiser publicar na Play Store depois, será necessário configurar uma keystore
+e um workflow de assinatura segura usando GitHub Secrets.

@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.DespertadorProfessorMoreira" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#1D4ED8</item>
+        <item name="colorPrimaryVariant">#1E40AF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F7F9FC</item>
+        <item name="android:navigationBarColor">#F7F9FC</item>
+    </style>
+</resources>
